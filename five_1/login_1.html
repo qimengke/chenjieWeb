@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" href="css/foot.css" />
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/login_1.css"/>
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/login_1.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("#foot").load("foot_1.html");
+			});
+		</script>
+	</head>
+	<body>
+		<div class="head">
+			<div class="margin clear">
+				<div class="logo left">
+					<a href="index_1.html"><img src="img_login/logo.png" alt="" /></a>
+				</div>
+				<div class="right">
+					<span>客服热线400-660-5610</span>
+				</div>
+			</div>
+		</div>
+		<div class="login">
+			<div class="margin">
+				<img class="img" src="" alt="" />
+				<div class="form">
+					<div class="title">
+						登录第五大道
+					</div>
+					<form action="">
+						<input type="txt" id="usrname" name="usrname" placeholder="用户名/Email/手机号"/>
+						<input type="password" id="pwd" name="pwd" placeholder="请输入密码"/>
+						<div class="hide_1"><p class="hide">用户名不正确</p></div>
+						<div class="chkbox">
+							<input id="chk" checked="checked" type="checkbox" name="chk"/>
+							<label for="chk">记住我(下次自动登录)</label>
+							<a href="">忘记密码？</a>
+						</div>
+						<div id="sub">登 录</div> 
+						<div class="register">
+							<span>还没有账号？</span>
+							<a href="register_1.html">立即注册</a>
+						</div>
+						<div class="link">
+							<p>合作网站账号登录</p>
+							<img src="img_login/qq.jpg" alt="" />
+							<img src="img_login/xinlang.jpg" alt="" />
+							<img src="img_login/weixin.jpg" alt="" />
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="foot"></div>
+	</body>
+</html>

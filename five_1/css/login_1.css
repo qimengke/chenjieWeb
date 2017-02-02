@@ -1,0 +1,132 @@
+@charset "utf-8";
+.head{
+	height: 90px;
+	margin-top: 5px;
+	
+}
+.head .margin{
+	padding: 0 20px 0 20px;
+}
+.head .right{
+	height: 90px;
+	position: relative;
+	width: 200px;
+	
+}
+.head .right span{
+	display: inline-block;
+	position: absolute;
+	bottom: 5px;
+	font:600 15px/20px "";
+	color: #000;
+}
+.login{
+	height: 570px;
+	/*background: url(../img_login/bai-bg.jpg) no-repeat;*/
+	overflow: hidden;
+}
+.login .margin .img{
+	float: left;
+}
+/*------------------用户登录------------------*/
+.login .margin .form{
+	
+	margin: 47px 50px 0 10px;
+	float: right;
+	background: #fff;
+	width: 360px;
+	border: 1px solid #eee;
+	height: 460px;
+	padding: 30px 20px 0 60px;
+}
+.login .margin .form .title{
+	font: 15px/30px "";
+	color: #6d6d6d;
+	width: 300px;
+	border-bottom:1px solid #A0A0A0 ;
+}
+#usrname{
+	width: 252px;
+	height: 34px;
+	margin-top: 40px;
+	margin-left: 25px;
+	padding-left:30px;
+	background: url(../img_login/login_reg_input_user_bg.jpg) no-repeat left;
+	border: 1px solid #A0A0A0;
+}
+#pwd{
+	width: 252px;
+	height: 34px;
+	margin-top: 40px;
+	margin-left: 25px;
+	padding-left: 30px;
+	background: url(../img_login/login_reg_input_pw_bg.jpg) no-repeat left;
+	border: 1px solid #A0A0A0;
+}
+.login .margin .form .chkbox{
+	width: 252px;
+   /* margin-top: 40px;*/
+	margin-left: 25px;
+}
+.login .margin .form .chkbox a{
+	text-decoration: underline;
+	float: right;
+	color: #C69C6D;
+}
+#sub{
+	width: 252px;
+    margin-top: 20px;
+	margin-left: 25px;
+	background: #CC0000;
+	border:none;
+	height: 30px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	cursor: pointer;
+}
+.login .margin .form .register{
+	width: 252px;
+    margin-top: 20px;
+	margin-left: 25px;
+	/*float: right;*/
+	text-align: right;
+	margin-bottom: 20px;
+}
+.login .margin .form .register a{
+	text-decoration: underline;
+	color: #C69C6D;
+}
+.login .margin .form .link{
+	width: 300px;
+	
+	border-top: 1px solid #A0A0A0;
+	padding-top: 20px;
+}
+.login .margin .form .link p{
+	margin-bottom: 5px;
+	
+}
+.login .margin .form .link img{
+	float: left;
+	margin-right:5px ;
+	
+}
+.login .margin .form .hide{
+	width: 285px;
+	height: 24px;
+	background: #fee0e3;
+	border: 1px solid #ff9ba5;
+	color: #000000;
+	font: 12px/24px "";
+	text-align: left;
+	/*margin-left: 25px;*/
+	margin-top: 3px;
+	display: none;
+}
+.login .margin .form .hide_1{
+	width: 287px;
+	height: 24px;
+	margin-left: 25px;
+	margin-top: 3px;
+}

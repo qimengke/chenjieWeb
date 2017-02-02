@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+.head{
+	height: 90px;
+	margin-top: 5px;
+	
+}
+.head .margin{
+	padding: 0 20px 0 20px;
+}
+.head .right{
+	height: 90px;
+	position: relative;
+	width: 200px;
+	
+}
+.head .right span{
+	display: inline-block;
+	position: absolute;
+	bottom: 5px;
+	font:600 15px/20px "";
+	color: #000;
+}
+
+
+.login{
+	height: 659px;
+	background: url(../img_login/zhuce-bg.jpg) no-repeat;
+	overflow: hidden;
+}
+.login .margin .img{
+	float: left;
+}
+
+.login .margin .form{
+	width: 450px;
+	height: 592px;
+	background: #fff;
+	float: left;
+	margin-top: 47px;
+	border: 1px solid #A0A0A0;
+	padding: 10px 10px 0 20px;
+}
+.login .margin .title{
+	width: 330px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 1px;
+	
+}
+.login .margin .title span{
+	display: inline-block;
+	background: #000000;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 2px 20px;
+	height: 25px;
+	font: 12px/25px "";
+	color: #fff;
+}
+.login .margin .biaodan ul li{
+	width: 370px;
+}
+.login .margin .biaodan ul .li_2{
+	margin: 30px;
+	color: #000;
+}
+.login .margin .biaodan ul .li_2 span{
+	width: 72px;
+	height: 27px;
+	border: 1px solid #000;
+	padding: 3px;
+}
+.login .margin .biaodan ul .li_2 input{
+	border: 1px solid #A0A0A0;
+	height: 34px;
+	width: 212px;
+}
+.login .margin .biaodan ul .li_3{
+	margin: 30px;
+	color: #000000;
+	margin-left: 20px;
+}
+.login .margin .biaodan ul .li_3 input{
+	border: 1px solid #A0A0A0;
+	height: 34px;
+	width: 212px;
+}
+.login .margin .biaodan ul .li_4{
+	margin: 30px;
+	color: #000000;
+	margin-left: 65px;
+}
+.login .margin .biaodan ul .li_4 input{
+	border: 1px solid #A0A0A0;
+	height: 34px;
+	width: 212px;
+}
+
+.login .margin .biaodan ul .li_5{
+	margin: 30px;
+	color: #000000;
+	margin-left: 40px;
+}
+.login .margin .biaodan ul .li_5 input{
+	border: 1px solid #A0A0A0;
+	height: 34px;
+	width: 212px;
+}
+
+.login .margin .biaodan ul .li_6{
+	width: 268px;
+	height: 24px;
+	margin: 0 0 20px 65px;
+	color: #000;
+}
+.login .margin .biaodan ul .li_7 input{
+	width: 210px;
+	height: 30px;
+	border: none;
+	background: #CC0000;
+	color: #fff;
+	font: 15px/30px "";
+	margin-left: 95px;
+}
+.login .margin .biaodan ul .li_8{
+	text-align: right;
+	margin-top: 15px;
+	width: 320px;
+	color: #000000;
+}
+.login .margin .biaodan ul .li_8 a{
+	color: #C69C6D;
+	text-decoration: underline;
+}
+.login .margin .biaodan ul .li_9{
+	height: 64px;
+	padding: 30px 0 10px 0;
+	text-align: center;
+	color: #000000;
+	margin-left: 20px;
+	
+}

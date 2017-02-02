@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品</title>
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+	    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/Ajax.js"></script>
+		<script type="text/javascript" src="js/cartbox_1.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/foot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cartbox.css"/>
+		<script type="text/javascript">
+			$(function(){
+				$("#head").load("head_1.html");
+				$("#foot").load("foot_1.html");
+			});
+		</script>
+	</head>
+	<body>
+		<div id="head"></div>
+		<div class="cartbox">
+			<div class="margin clear">
+				<div id="pic">
+					<div id="move_1">
+						
+					</div>
+					
+					<div id="move_2">
+					  	<img src="img_brand/14399761583806.jpg" alt="" />
+					</div>
+			   
+					<img id="small" src="img_brand/14399761583806.jpg" alt="" />
+					<div id="container">
+						<img id="big" src="img_brand/14399761583806.jpg"/>
+					</div>
+				</div>
+				<div class="bottom_pic">
+					<span class="_left"></span>
+					<ul>
+						
+						<li class="first"><img src="img_brand/14399761583806.jpg" alt="" /></li>
+						<li><img src="img_brand/14399761582766.jpg" alt="" /></li>
+						<li><img src="img_brand/14399761595578.jpg" alt="" /></li>
+						<li class="last"><img src="img_brand/14399761596809.jpg" alt="" /></li>
+						
+					</ul>
+					<span class="_right"></span>
+				</div>
+			    <div data-good-id="sp1" class="product clear">
+			    	<ul class="clear">
+			    		<li class="li_1">
+			    			<a class="li_1_1" href="">
+			    				Roger Dubuis 罗杰杜彼
+			    			</a>
+			    			<a class="li_1_2" href="">黑色圆形表盘鳄鱼皮带男士腕表RDDBEX0408</a>
+			    			<a class="li_1_3" href="">货号：5Lux070372g_p137421</a>
+			    		</li>
+			    		<li class="li_2 clear">
+			    			<div class="li_2_1">
+			    				<a class="li_2_a1" href="">￥6908000.00</a>
+			    				<a class="li_2_a2" href="">红卡会员价</a>
+			    				<a class="li_2_a3" href="">专柜价：￥7850000.00</a>
+			    			</div>
+			    			<div class="li_2_2">
+			    				<div class="li_2_2_1 clear">
+			    					<b></b>
+			    					<span>会员价</span>
+			    				</div>
+			    				<div class="hide">
+			    					<span>钻石/皇冠卡价：￥6769840</span>
+			    					<span>金银卡会员价：￥6907900</span>
+			    					<span>红卡会员价：￥6908000</span>
+			    					<span class="span">如何享受会员价？</span>
+			    				</div>
+			    				<img src="" alt="" />
+			    			</div>
+			    		</li>
+			    		<li class="li_3">
+			    			<div class="li_3_1">
+			    				<span class="span_1">色系</span>
+			    				<span class="span_2">黑色</span>
+			    			</div>
+			    			<div class="li_3_2">
+			    				<span class="span_1">款型</span>
+			    				<span class="span_2">男款</span>
+			    			</div>
+			    			<div class="li_3_3">
+			    				<span class="span_1">数量：</span>
+			    				<span id="sub" class="span_2">-</span>
+			    				<span id="num_1" class="span_3">1</span>
+			    				<span id="add" class="span_4">+</span>
+			    			</div>
+			    		</li>
+			    		<li class="li_4">
+			    			<span class="li_4_1 left">
+			    				发货门店
+			    			</span>
+			    			<div class="left li_4_1">
+			    				<span class="li_4_1_2">此货品将由</span>
+			    				<a class="li_4_1_3" href="index_1.html">第五大道奢侈品网</a>
+			    				<span class="li_4_1_4" span>为您发货</span>
+			    			</div>
+			    		</li><br/>
+			    		<li class="li_5">
+			    			<span class="li_5_1">发货时效</span>
+			    			<span class="li_5_2">
+                                                                                      预计1-3个工作日发货，延迟发货慢必赔！查看详情 》
+			    			</span>
+			    		</li>
+			    		<li class="li_6">
+			    			<span class="li_6_1">温馨提示</span>
+			    			<span class="li_6_2">
+                                                                                 本商品 不支持货到付款 有质量问题支持7天退换货
+			    			</span>
+			    		</li>
+			    		<li class="li_7">
+			    			<span class="li_7_1">包邮政策</span>
+			    			<span>
+                                                                                  白金钻石顺丰包邮，注册用户满99元免邮（稀奇艺术品牌及货到付款除外）
+			    			</span>
+			    		</li>
+			    		<li class="li_8">
+			    			<span class="li_8_1">立即购买</span>
+			    			<span id="Add" class="li_8_2">
+			    				<b></b>
+			    				加入购物袋
+			    			</span>
+			    			<div id="bag">
+			    				<span class="bag-1"></span>
+			    				<ul>
+			    					<li class="bag-1-1">商品成功放入购物袋，我的购物袋有<span id="bag-num1"></span>件商品</li>
+			    					<li class="bag-1-2">
+			    						共计<span id="bag-num2"></span>
+			    						可以<a href="buy_1.html">去购物袋结算</a>
+			    					</li>
+			                     <span class="bag-2">X</span>
+			    				</ul>
+			    				<img src="img_brand/index.png"/>
+			    			</div>
+			    		</li>
+			    		<li class="li_9">
+			    			<a class="li_9_1" href="">
+			    				<b></b>
+			    				收藏
+			    			</a>
+			    			<a id="fenxiang" class="li_9_2" href="">
+			    				<b></b>
+			    				分享
+			    			</a>
+			    			<span class="li_9_3">
+			    				<b></b>
+			    				品牌官方授权
+			    			</span>
+			    			<span class="li_9_4">
+			    				<b></b>
+			    				全球速递
+			    			</span>
+			    			<span class="li_9_5">
+			    				<b></b>
+			    				商务部诚信企业
+			    			</span>
+			    		</li>
+			    	</ul>
+			    </div>	
+			</div>
+		</div>
+		<div>
+			<img src="img_brand/pic.png"/>
+		</div>
+		<div id="foot"></div>
+	</body>
+</html>

@@ -1,0 +1,53 @@
+{
+		"101":{
+				"src":"img_main/14664738037547.jpg",
+				"url":"#",
+				"icon":"",
+				"name":"D & G",
+				"chinese":"杜嘉班纳",
+				"children":{
+				    "src":"img_main/14477306892349.png"
+				  }
+				},
+		  "102":{
+				"src":"img_main/14643172429187.jpg",
+				"url":"#",
+				"icon":"",
+				"name":"Moschino",
+				"chinese":"莫斯奇诺",
+				"children":{
+				    "src":"img_main/14477419321653.png"
+				  }
+				},
+		  "103":{
+				"src":"img_main/14646612375226.jpg",
+				"url":"#",
+				"icon":"",
+				"name":"Prada",
+				"chinese":"普拉达",
+				"children":{
+				    "src":"img_main/14477432418542.png"
+				  }
+				},
+		  "104":{
+				"src":"img_main/14656966415459.jpg",
+				"url":"#",
+				"icon":"",
+				"name":"Citizen",
+				"chinese":"西铁城",
+				"children":{
+				    "src":"img_main/14477298397766.png"
+				  }
+				},
+		  "105":{
+			    "src":"img_main/147209231864.jpg",
+				"url":"#",
+				"icon":"",
+				"name":"Fendi",
+				"chinese":"芬迪",
+				"children":{
+				    "src":"img_main/14477312248077.png"
+				  }
+				}		
+
+}
